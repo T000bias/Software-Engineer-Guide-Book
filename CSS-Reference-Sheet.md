@@ -3,6 +3,7 @@
 # Table of Content
 - [CSS Reference Sheet](#css-reference-sheet)
 - [Table of Content](#table-of-content)
+  - [CSS Variables](#css-variables)
   - [Media Queries](#media-queries)
     - [Create a Media Query](#create-a-media-query)
     - [Responsive Images](#responsive-images)
@@ -13,7 +14,7 @@
     - [flex-direction property](#flex-direction-property)
     - [justify-content property](#justify-content-property)
     - [align item property](#align-item-property)
-  - [align-self](#align-self)
+    - [align-self](#align-self)
     - [flex-wrap property](#flex-wrap-property)
     - [flex-shrink property](#flex-shrink-property)
     - [flex-basis property](#flex-basis-property)
@@ -49,8 +50,11 @@
     - [Attribute Starts with Selector](#attribute-starts-with-selector)
     - [Attribute Ends with Selector](#attribute-ends-with-selector)
     - [Attribute Wildcard Selector](#attribute-wildcard-selector)
+---
 
----   
+## CSS Variables
+
+---
 
 ## Media Queries
 - [Create a Media Query](#create-a-media-query)
@@ -274,7 +278,7 @@ When the flex direction is a column, `justify-content` changes to the vertical a
 
 ```
 
-## align-self
+### align-self
 
 This property accepts the same values as `align-items` and its value for the specific item.
 
